@@ -1,0 +1,36 @@
+{
+    "title": "DaLiToggle - A Web Component for Dark/Light Mode Switching",
+    "upload_type": "software",
+    "description": "DaLiToggle is a lightweight, buildless web component that enables users to switch between dark and light mode with a simple button.",
+    "creators": [
+      {
+        "name": "Fossea³m Project",
+        "affiliation": "fosseam.org"
+      }
+    ],
+    "license": "MIT",
+    "access_right": "open",
+    "keywords": [
+      "web component",
+      "dark mode",
+      "light mode",
+      "frontend",
+      "fosseam",
+      "buildless"
+    ],
+    "version": "0.8.1",
+    "language": "eng",
+    "related_identifiers": [
+      {
+        "relation": "isSupplementTo",
+        "identifier": "https://github.com/fosseam/web-components",
+        "scheme": "url"
+      }
+    ],
+    "communities": [
+      {
+        "identifier": "web-components"
+      }
+    ]
+  }
+  

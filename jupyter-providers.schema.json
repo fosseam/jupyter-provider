@@ -1,0 +1,220 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Jupyter Notebook Providers",
+    "description": "JSON schema for Jupyter notebook provider dataset with aggregated confidence levels.",
+    "type": "object",
+    "properties": {
+        "lastCheck": {
+            "type": "string",
+            "format": "date"
+        },
+        "confidence": {
+            "enum": [
+                "high",
+                "medium",
+                "low"
+            ]
+        },
+        "Basics": {
+            "type": "object",
+            "required": [
+                "description",
+                "homepage",
+                "provider",
+                "lastCheck",
+                "confidence"
+            ],
+            "properties": {
+                "description": {
+                    "type": "string"
+                },
+                "homepage": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "provider": {
+                    "type": "string"
+                },
+                "lastCheck": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "confidence": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 2,
+                    "items": [
+                        {
+                            "enum": [
+                                "high",
+                                "medium",
+                                "low"
+                            ]
+                        },
+                        {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    ]
+                }
+            }
+        },
+        "Access": {
+            "$ref": "#/$defs/attributeGroup"
+        },
+        "Functionality": {
+            "$ref": "#/$defs/attributeGroup"
+        },
+        "Scalability": {
+            "$ref": "#/$defs/attributeGroup"
+        },
+        "Integrations": {
+            "$ref": "#/$defs/attributeGroup"
+        },
+        "Security": {
+            "$ref": "#/$defs/attributeGroup"
+        },
+        "Community": {
+            "$ref": "#/$defs/attributeGroup"
+        },
+        "SWOT": {
+            "type": "object",
+            "required": [
+                "lastCheck",
+                "confidence",
+                "strengths",
+                "weaknesses"
+            ],
+            "properties": {
+                "lastCheck": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "confidence": {
+                    "enum": [
+                        "high",
+                        "medium",
+                        "low"
+                    ]
+                },
+                "strengths": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "weaknesses": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "required": [
+        "lastCheck",
+        "confidence",
+        "Basics",
+        "Access",
+        "Functionality",
+        "Scalability",
+        "Integrations",
+        "Security",
+        "Community",
+        "SWOT"
+    ],
+    "$defs": {
+        "attributeGroup": {
+            "type": "object",
+            "required": [
+                "lastCheck",
+                "confidence"
+            ],
+            "properties": {
+                "lastCheck": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "confidence": {
+                    "enum": [
+                        "high",
+                        "medium",
+                        "low"
+                    ]
+                }
+            },
+            "additionalProperties": {
+                "$ref": "#/$defs/attributeDetail"
+            }
+        },
+        "attributeDetail": {
+            "type": "object",
+            "required": [
+                "available",
+                "confidence"
+            ],
+            "properties": {
+                "available": {
+                    "enum": [
+                        true,
+                        false,
+                        "unsure"
+                    ]
+                },
+                "details": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "reasoning": {
+                    "type": "string"
+                },
+                "lastCheck": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "confidence": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 2,
+                    "items": [
+                        {
+                            "enum": [
+                                "high",
+                                "medium",
+                                "low"
+                            ]
+                        },
+                        {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    ]
+                }
+            },
+            "if": {
+                "properties": {
+                    "available": {
+                        "const": "unsure"
+                    }
+                }
+            },
+            "then": {
+                "required": [
+                    "reasoning",
+                    "lastCheck"
+                ]
+            },
+            "else": {
+                "not": {
+                    "required": [
+                        "reasoning",
+                        "lastCheck"
+                    ]
+                }
+            }
+        }
+    }
+}
