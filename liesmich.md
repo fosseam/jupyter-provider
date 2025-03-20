@@ -85,7 +85,14 @@ Dieses Dataset lebt von gemeinsamem Wissen. Bitte hilf mit:
 - Fehlende Details und Quellen ergänzen.
 - Informationen regelmäßig aktualisieren.
 
+### Pflege & Erweiterung
+
+- Neue Anbieter werden zuerst in aspirants.md oder cloud-aspirants.md gesammelt.
+- Meta-Verbesserungen (z. B. JSON-Struktur, neue Attribute) werden in ideas.md dokumentiert.
+- Änderungen am Dataset erfolgen nur mit entsprechender Dokumentation.
+
 Pull Requests, Issues und Diskussionen sind herzlich willkommen!
+
 
 ## 6. Technische Integration (CI/CD)
 

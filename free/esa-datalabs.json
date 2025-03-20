@@ -1,0 +1,162 @@
+{
+    "ESA Datalabs": {
+        "confidence": "low",
+        "lastCheck": "2025-03-20",
+        "Basics": {
+            "description": "ESA Datalabs is a free research platform with direct JupyterLab access to ESA data archives, primarily for scientists working with Earth observation and space data.",
+            "homepage": "https://datalabs.esa.int/web/",
+            "provider": "European Space Agency (ESA)"
+        },
+        "Access": {
+            "confidence": "high",
+            "lastCheck": "2025-03-20",
+            "requiresSignUp": {
+                "available": true,
+                "confidence": "high"
+            },
+            "cost": {
+                "available": true,
+                "confidence": "high"
+            },
+            "persistentStorage": {
+                "available": true,
+                "confidence": "high"
+            },
+            "importExportIpynb": {
+                "available": true,
+                "confidence": "high"
+            },
+            "sessionDuration": {
+                "available": "unsure",
+                "confidence": "low",
+                "reasoning": "No official information found."
+            },
+            "oauthProviders": {
+                "available": true,
+                "confidence": "high",
+                "details": "Only EO Sign-In available, no third-party OAuth providers like Google or GitHub."
+            }
+        },
+        "Functionality": {
+            "confidence": "medium",
+            "lastCheck": "2025-03-20",
+            "jupyterLabSupport": {
+                "available": true,
+                "confidence": "high"
+            },
+            "supportedLanguages": {
+                "available": true,
+                "confidence": "medium",
+                "details": "Python is confirmed, R support is unclear and not officially documented."
+            },
+            "gpuTpuSupport": {
+                "available": false,
+                "confidence": "low"
+            },
+            "collaboration": {
+                "available": "unsure",
+                "confidence": "low",
+                "reasoning": "No information about real-time collaboration found."
+            },
+            "dataAccess": {
+                "available": true,
+                "confidence": "high",
+                "details": "Direct ESA data access available."
+            },
+            "automationScheduling": {
+                "available": false,
+                "confidence": "low"
+            }
+        },
+        "Scalability": {
+            "confidence": "low",
+            "lastCheck": "2025-03-20",
+            "maxRam": {
+                "available": "unsure",
+                "confidence": "low",
+                "reasoning": "No RAM specifications available."
+            },
+            "maxCpuCores": {
+                "available": "unsure",
+                "confidence": "low",
+                "reasoning": "No CPU core specifications available."
+            },
+            "largeDatasetLimits": {
+                "available": "unsure",
+                "confidence": "low",
+                "reasoning": "Potential storage or CPU limits undocumented."
+            }
+        },
+        "Integrations": {
+            "confidence": "medium",
+            "lastCheck": "2025-03-20",
+            "gitSupport": {
+                "available": "unsure",
+                "confidence": "low",
+                "reasoning": "No official statement on Git integration found."
+            },
+            "cloudIntegrations": {
+                "available": false,
+                "confidence": "high"
+            },
+            "apiExtensions": {
+                "available": true,
+                "confidence": "high"
+            }
+        },
+        "Security": {
+            "confidence": "high",
+            "lastCheck": "2025-03-20",
+            "privacyPolicy": {
+                "available": true,
+                "confidence": "high",
+                "details": "Privacy policy available at https://earth.esa.int/eogateway/faq/how-can-i-create-an-eo-sign-in-account-for-non-esa-eo-data-users-."
+            },
+            "privateNotebooks": {
+                "available": "unsure",
+                "confidence": "low",
+                "reasoning": "No information about private notebooks found."
+            },
+            "encryption": {
+                "available": true,
+                "confidence": "high"
+            },
+            "multiFactorAuth": {
+                "available": false,
+                "confidence": "low"
+            }
+        },
+        "Community": {
+            "confidence": "medium",
+            "lastCheck": "2025-03-20",
+            "communitySupport": {
+                "available": "unsure",
+                "confidence": "low",
+                "reasoning": "No community discussions found."
+            },
+            "officialDocs": {
+                "available": true,
+                "confidence": "high",
+                "details": "Documentation available at https://datalabs.esa.int/."
+            },
+            "supportOptions": {
+                "available": true,
+                "confidence": "medium",
+                "details": "Limited ESA support."
+            }
+        },
+        "SWOT": {
+            "confidence": "high",
+            "lastCheck": "2025-03-20",
+            "strengths": [
+                "Direct access to ESA data",
+                "Browser-based usage with no local installation",
+                "Free for research projects"
+            ],
+            "weaknesses": [
+                "No GPU support",
+                "No automation/scheduling features"
+            ]
+        }
+    }
+}

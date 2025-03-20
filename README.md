@@ -59,7 +59,16 @@ This dataset thrives on shared knowledge. Please help by:
 - Adding missing details and sources.
 - Regularly updating information.
 
-Pull requests, issues, and discussions are warmly welcome!
+### Expansion
+
+- New providers are first collected in aspirants-cloud|free|sub.md.
+- Meta improvements (e.g., JSON structure, new attributes) are documented in ideas.md.
+- Changes to the dataset are made only with proper documentation.
+- aspirants.md is used to collect potential new Jupyter providers.
+- ideas.md documents structural and conceptual improvements.
+
+
+> Pull requests, issues, and discussions are warmly welcome!
 
 ## 6. Technical Merging (CI/CD)
 
