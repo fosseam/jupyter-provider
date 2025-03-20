@@ -1,0 +1,223 @@
+{
+    "PAWS": {
+        "lastCheck": "2025-03-19",
+        "confidence": "low",
+        "Basics": {
+            "lastCheck": "2025-03-19",
+            "confidence": [
+                "high",
+                "https://paws.wmcloud.org/"
+            ],
+            "description": "PAWS (A Web Shell) is a Wikimedia-hosted Jupyter environment designed for working with Wikimedia data and APIs.",
+            "homepage": "https://paws.wmcloud.org/",
+            "provider": "Wikimedia Foundation"
+        },
+        "Access": {
+            "lastCheck": "2025-03-19",
+            "confidence": "medium",
+            "registrationRequired": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "oauthProviders": {
+                "available": true,
+                "details": [
+                    "Wikimedia SUL"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "persistentStorage": {
+                "available": true,
+                "details": [
+                    "Limited to 5 GB"
+                ],
+                "confidence": [
+                    "medium"
+                ]
+            },
+            "importExportIpynb": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "sessionDuration": {
+                "available": "unsure",
+                "reasoning": "Sessions can be terminated unexpectedly, no fixed limit stated",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "low"
+                ]
+            }
+        },
+        "Functionality": {
+            "lastCheck": "2025-03-19",
+            "confidence": "medium",
+            "jupyterlabSupport": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "gpuTpuSupport": {
+                "available": false,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "supportedLanguages": {
+                "available": true,
+                "details": [
+                    "Python",
+                    "Julia",
+                    "Bash",
+                    "R"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "collaboration": {
+                "available": false,
+                "details": [
+                    "No real-time editing, only public notebook sharing"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "automationScheduling": {
+                "available": "unsure",
+                "reasoning": "Toolforge recommended for scheduled tasks, unclear native support",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "medium"
+                ]
+            }
+        },
+        "Scalability": {
+            "lastCheck": "2025-03-19",
+            "confidence": "medium",
+            "maxRamGb": {
+                "available": true,
+                "details": [
+                    "2 GB"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "maxCpuCores": {
+                "available": true,
+                "details": [
+                    "1 CPU"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "largeDatasetLimitations": {
+                "available": true,
+                "details": [
+                    "Limited compute resources, not suitable for large-scale data processing"
+                ],
+                "confidence": [
+                    "medium"
+                ]
+            }
+        },
+        "Integrations": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "gitIntegration": {
+                "available": false,
+                "details": [
+                    "No direct push/pull support, manual code transfer only"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "cloudIntegrations": {
+                "available": false,
+                "details": [
+                    "Only integrates with Wikimedia databases and APIs"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Security": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "privacyPolicyUrl": "https://foundation.wikimedia.org/wiki/Privacy_policy",
+            "privateNotebooks": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "encryption": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "mfa": {
+                "available": true,
+                "details": [
+                    "Supported through Wikimedia account settings"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Community": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "communitySupport": {
+                "available": true,
+                "details": [
+                    "Wikimedia PAWS Community",
+                    "Wikitech discussions"
+                ],
+                "confidence": [
+                    "high",
+                    "https://wikitech.wikimedia.org/wiki/PAWS"
+                ]
+            },
+            "officialDocumentationUrl": "https://wikitech.wikimedia.org/wiki/PAWS",
+            "supportOptions": {
+                "available": true,
+                "details": [
+                    "Community Support"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "SWOT": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "strengths": [
+                "Completely free to use",
+                "Integrated with Wikimedia databases and APIs",
+                "Supports Python, Bash, and R",
+                "No local installation required, fully browser-based"
+            ],
+            "weaknesses": [
+                "Limited compute resources (2 GB RAM, 1 CPU)",
+                "No GPU/TPU support",
+                "No real-time collaboration",
+                "Limited storage space (5 GB per user)"
+            ]
+        }
+    }
+}

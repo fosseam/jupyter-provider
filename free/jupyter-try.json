@@ -1,0 +1,145 @@
+{
+    "JupyterTry": {
+        "lastCheck": "2025-03-19",
+        "confidence": "medium",
+        "Basics": {
+            "lastCheck": "2025-03-19",
+            "confidence": [
+                "high",
+                "https://jupyter.org/try"
+            ],
+            "description": "Jupyter Try provides a temporary Jupyter environment with access to Jupyter Notebook, JupyterLab, and JupyterLite.",
+            "homepage": "https://jupyter.org/try",
+            "provider": "Project Jupyter"
+        },
+        "Access": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "registrationRequired": {
+                "available": false,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "oauthProviders": {
+                "available": false,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "persistentStorage": {
+                "available": false,
+                "confidence": [
+                    "high",
+                    "https://jupyter.org/try"
+                ]
+            },
+            "importExportIpynb": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "sessionDuration": {
+                "available": true,
+                "details": [
+                    "Temporary sessions only"
+                ],
+                "confidence": [
+                    "high",
+                    "https://jupyter.org/try"
+                ]
+            }
+        },
+        "Functionality": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "jupyterlabSupport": {
+                "available": true,
+                "confidence": [
+                    "high",
+                    "https://jupyter.org/try"
+                ]
+            },
+            "gpuTpuSupport": {
+                "available": false,
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Scalability": {
+            "lastCheck": "2025-03-19",
+            "confidence": "medium",
+            "maxRamGb": {
+                "available": "unsure",
+                "reasoning": "No official documentation about RAM limits",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "low"
+                ]
+            }
+        },
+        "Integrations": {
+            "lastCheck": "2025-03-19",
+            "confidence": "medium",
+            "gitIntegration": {
+                "available": false,
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Security": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "privacyPolicyUrl": "https://jupyter.org/about",
+            "mfa": {
+                "available": false,
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Community": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "communitySupport": {
+                "available": true,
+                "details": [
+                    "Jupyter Community",
+                    "GitHub Issues"
+                ],
+                "confidence": [
+                    "high",
+                    "https://github.com/jupyter"
+                ]
+            },
+            "officialDocumentationUrl": "https://jupyter.org/documentation",
+            "supportOptions": {
+                "available": true,
+                "details": [
+                    "GitHub Issues",
+                    "Jupyter Forums"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "SWOT": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "strengths": [
+                "Completely free, no registration required",
+                "Supports Jupyter Notebook, JupyterLab, and JupyterLite",
+                "Great for quick experiments and testing"
+            ],
+            "weaknesses": [
+                "No persistent storage",
+                "Sessions are temporary and short-lived",
+                "Limited scalability (no GPU/TPU support)"
+            ]
+        }
+    }
+}

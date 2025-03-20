@@ -1,0 +1,220 @@
+{
+    "CopernicusJupyterLab": {
+        "lastCheck": "2025-03-19",
+        "confidence": "low",
+        "Basics": {
+            "lastCheck": "2025-03-19",
+            "confidence": [
+                "high",
+                "https://jupyterhub.dataspace.copernicus.eu/"
+            ],
+            "description": "Copernicus JupyterLab provides direct access to European Earth observation data with persistent storage and collaborative features.",
+            "homepage": "https://jupyterhub.dataspace.copernicus.eu/",
+            "provider": "Copernicus Data Space Ecosystem"
+        },
+        "Access": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "registrationRequired": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "oauthProviders": {
+                "available": true,
+                "details": [
+                    "Copernicus Data Space Authentication"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "persistentStorage": {
+                "available": true,
+                "details": [
+                    "10 GB storage, retained for 15 days after last activity"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "importExportIpynb": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "sessionDuration": {
+                "available": true,
+                "details": [
+                    "Active up to 8 hours after last interaction"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Functionality": {
+            "lastCheck": "2025-03-19",
+            "confidence": "low",
+            "jupyterlabSupport": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "gpuTpuSupport": {
+                "available": "unsure",
+                "reasoning": "Depends on assigned resources, no clear documentation",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "low"
+                ]
+            },
+            "supportedLanguages": {
+                "available": true,
+                "details": [
+                    "Python, R (since June 2024)"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "collaboration": {
+                "available": true,
+                "details": [
+                    "Real-time multi-user collaboration"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "automationScheduling": {
+                "available": "unsure",
+                "reasoning": "No explicit mention of automation or scheduling features",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "low"
+                ]
+            }
+        },
+        "Scalability": {
+            "lastCheck": "2025-03-19",
+            "confidence": "medium",
+            "maxRamGb": {
+                "available": "unsure",
+                "reasoning": "RAM depends on selected instance size (Small, Medium, Large), no fixed values provided",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "low"
+                ]
+            },
+            "maxCpuCores": {
+                "available": "unsure",
+                "reasoning": "CPU count depends on instance size, no clear values documented",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "low"
+                ]
+            },
+            "largeDatasetLimitations": {
+                "available": true,
+                "details": [
+                    "Resource limits may impact large dataset processing"
+                ],
+                "confidence": [
+                    "medium"
+                ]
+            }
+        },
+        "Integrations": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "gitIntegration": {
+                "available": true,
+                "details": [
+                    "nbgitpuller plugin for Git synchronization"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "cloudIntegrations": {
+                "available": true,
+                "details": [
+                    "Integration with Copernicus File Sync & Share"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Security": {
+            "lastCheck": "2025-03-19",
+            "confidence": "medium",
+            "privacyPolicyUrl": "https://dataspace.copernicus.eu/terms-and-conditions",
+            "privateNotebooks": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "encryption": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "mfa": {
+                "available": "unsure",
+                "reasoning": "No clear mention of Multi-Factor Authentication support",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "low"
+                ]
+            }
+        },
+        "Community": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "communitySupport": {
+                "available": true,
+                "details": [
+                    "Copernicus Community",
+                    "Support Forums"
+                ],
+                "confidence": [
+                    "high",
+                    "https://documentation.dataspace.copernicus.eu/Applications/JupyterHub.html"
+                ]
+            },
+            "officialDocumentationUrl": "https://documentation.dataspace.copernicus.eu/Applications/JupyterHub.html",
+            "supportOptions": {
+                "available": true,
+                "details": [
+                    "Community Support, extended support via Copernicus"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "SWOT": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "strengths": [
+                "Direct access to Copernicus Earth observation data",
+                "Persistent storage available (10 GB, retained for 15 days)",
+                "Supports real-time multi-user collaboration",
+                "No local installation required, fully browser-based"
+            ],
+            "weaknesses": [
+                "Limited computing resources depending on instance size",
+                "Unclear information about GPU/TPU support",
+                "No explicit scheduling or automation features",
+                "Limited storage retention period (15 days after last activity)"
+            ]
+        }
+    }
+}

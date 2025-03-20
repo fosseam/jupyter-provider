@@ -1,0 +1,209 @@
+{
+    "Deepnote": {
+        "lastCheck": "2025-03-19",
+        "confidence": "low",
+        "Basics": {
+            "lastCheck": "2025-03-19",
+            "confidence": [
+                "high",
+                "https://deepnote.com/"
+            ],
+            "description": "Deepnote is a collaborative, cloud-based Jupyter-compatible notebook with AI-assisted features and built-in database integrations.",
+            "homepage": "https://deepnote.com/",
+            "provider": "Deepnote"
+        },
+        "Access": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "registrationRequired": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "oauthProviders": {
+                "available": false,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "persistentStorage": {
+                "available": true,
+                "details": [
+                    "Deepnote Cloud Storage"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "importExportIpynb": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "sessionDuration": {
+                "available": true,
+                "details": [
+                    "15 min inactivity timeout (Free plan)",
+                    "Up to 48h for Enterprise"
+                ],
+                "confidence": [
+                    "high",
+                    "https://deepnote.com/pricing"
+                ]
+            }
+        },
+        "Functionality": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "jupyterlabSupport": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "gpuTpuSupport": {
+                "available": true,
+                "details": [
+                    "GPUs available in paid plans"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "supportedLanguages": {
+                "available": true,
+                "details": [
+                    "Python",
+                    "SQL",
+                    "R"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "collaboration": {
+                "available": true,
+                "details": [
+                    "Real-time multi-user editing"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            },
+            "automationScheduling": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Scalability": {
+            "lastCheck": "2025-03-19",
+            "confidence": "medium",
+            "maxRamGb": {
+                "available": true,
+                "details": [
+                    "Higher RAM in paid plans"
+                ],
+                "confidence": [
+                    "medium"
+                ]
+            },
+            "maxCpuCores": {
+                "available": true,
+                "details": [
+                    "More CPU cores available in paid plans"
+                ],
+                "confidence": [
+                    "medium"
+                ]
+            }
+        },
+        "Integrations": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "gitIntegration": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "cloudIntegrations": {
+                "available": true,
+                "details": [
+                    "Integrates with Snowflake, BigQuery"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "Security": {
+            "lastCheck": "2025-03-19",
+            "confidence": "low",
+            "privacyPolicyUrl": "https://deepnote.com/privacy",
+            "privateNotebooks": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "encryption": {
+                "available": true,
+                "confidence": [
+                    "high"
+                ]
+            },
+            "mfa": {
+                "available": "unsure",
+                "reasoning": "No clear mention of Multi-Factor Authentication in documentation",
+                "lastCheck": "2025-03-19",
+                "confidence": [
+                    "low"
+                ]
+            }
+        },
+        "Community": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "communitySupport": {
+                "available": true,
+                "details": [
+                    "Deepnote Community",
+                    "Discussions Forum"
+                ],
+                "confidence": [
+                    "high",
+                    "https://deepnote.com/community"
+                ]
+            },
+            "officialDocumentationUrl": "https://deepnote.com/docs",
+            "supportOptions": {
+                "available": true,
+                "details": [
+                    "Documentation, Community Forum"
+                ],
+                "confidence": [
+                    "high"
+                ]
+            }
+        },
+        "SWOT": {
+            "lastCheck": "2025-03-19",
+            "confidence": "high",
+            "strengths": [
+                "Real-time collaboration",
+                "AI-assisted coding and data analysis",
+                "Seamless integration with databases like Snowflake and BigQuery",
+                "No local installation required, fully browser-based"
+            ],
+            "weaknesses": [
+                "Limited resources in the Free plan",
+                "Requires an active internet connection",
+                "Advanced features are behind a paywall"
+            ]
+        }
+    }
+}
