@@ -3,7 +3,7 @@ All about Jupyter-Labs and Books in SaaS.
 
 This repository provides a structured JSON dataset containing comprehensive information about public and commercial Jupyter notebook providers. It serves as a reference, decision-making aid, and systematic evaluation resource for selecting suitable providers.  
   
-🇩🇪 german -> liesmich.md  
+🇩🇪 (deu) -> liesmich.md  
 
 ## 1. Introduction & Purpose
 

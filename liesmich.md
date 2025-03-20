@@ -1,9 +1,9 @@
 # jupyter-provider
-Alles über Jupyter Labs & JupyterBooks im SaaS Format.
+Alles über Jupyter Labs & NoteBooks im SaaS Format.
 
 Dieses Repository bietet ein strukturiertes JSON-Dataset mit umfassenden Informationen zu öffentlichen und kommerziellen Jupyter-Notebook-Anbietern. Es dient als Referenz, Entscheidungshilfe sowie zur systematischen Bewertung und Auswahl geeigneter Anbieter.  
   
-english -> readme.md  
+🇺🇳 🇺🇸 🇬🇧 (eng) -> readme.md  
 
 ## 1. Einleitung & Zweck
 
