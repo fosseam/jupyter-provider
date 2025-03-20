@@ -1,36 +1,21 @@
 {
-    "title": "DaLiToggle - A Web Component for Dark/Light Mode Switching",
-    "upload_type": "software",
-    "description": "DaLiToggle is a lightweight, buildless web component that enables users to switch between dark and light mode with a simple button.",
+    "title": "Jupyter Providers",
+    "upload_type": "dataset",
+    "description": "A collection of Jupyter Lab & Notebook SaaS Provider",
     "creators": [
       {
-        "name": "Fossea³m Project",
-        "affiliation": "fosseam.org"
+        "name": "Detlef Burkhardt",
+        "affiliation": "Independent Researcher"
       }
     ],
-    "license": "MIT",
+    "license": "CC-BY 4.0",
     "access_right": "open",
     "keywords": [
-      "web component",
-      "dark mode",
-      "light mode",
-      "frontend",
-      "fosseam",
-      "buildless"
+      "jupyter",
+      "notebooks",
+      "python"
     ],
-    "version": "0.8.1",
-    "language": "eng",
-    "related_identifiers": [
-      {
-        "relation": "isSupplementTo",
-        "identifier": "https://github.com/fosseam/web-components",
-        "scheme": "url"
-      }
-    ],
-    "communities": [
-      {
-        "identifier": "web-components"
-      }
-    ]
+    "version": "0.7.6",
+    "language": "eng"
   }
   
