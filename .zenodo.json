@@ -1,10 +1,12 @@
 {
     "title": "Jupyter Providers",
-    "upload_type": "dataset",
-    "description": "A collection of Jupyter Lab & Notebook SaaS Provider",
+    "upload_type": "publication",
+    "publication_type": "workingpaper",
+    "description": "An exploration about Jupyter Lab & Notebook SaaS Provider",
     "creators": [
       {
-        "name": "Detlef Burkhardt",
+        "name": "Burkhardt, Detlef",
+        "orcid": "https://orcid.org/0009-0000-9155-716X",
         "affiliation": "Independent Researcher"
       }
     ],
@@ -15,7 +17,14 @@
       "notebooks",
       "python"
     ],
-    "version": "0.7.7",
-    "language": "eng"
+    "version": "0.7.8",
+    "language": "eng",
+    "related_identifiers": [],
+    "communities": [
+      {
+        "identifier": "open-science"
+      }
+    ],
+    "grants": []    
   }
   
