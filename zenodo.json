@@ -1,0 +1,24 @@
+{
+  "title": "Jupyter Providers",
+  "upload_type": "software",
+  "description": "Exploration of Jupyter Lab & Notebook Provider",
+  "creators": [
+    {
+      "name": "Burkhardt, Detlef",
+      "orcid": "0009-0000-9155-716X"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "Jupyter",
+    "JupyterLab",
+    "Open Science",
+    "Environment Management",
+    "Data Science",
+    "Software Engineering",
+    "Research Infrastructure",
+    "Python",
+    "FOSSEAM"
+  ],
+  "version": "0.7.9"
+}
